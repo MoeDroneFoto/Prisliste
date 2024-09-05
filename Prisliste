@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoeDroneFoto - Prisliste</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #0066cc;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #0066cc;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .info {
+            background-color: #f4f4f4;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-left: 4px solid #0066cc;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>MoeDroneFoto - Prisliste</h1>
+
+    <h2>1. Grunnleggende Tjenester (Faste kostnader)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Tjeneste</th>
+                <th>Beskrivelse</th>
+                <th>Pris (NOK)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Oppstartskostnad</td>
+                <td>Planlegging og forberedelser for hvert oppdrag</td>
+                <td>500,-</td>
+            </tr>
+            <tr>
+                <td>Droneflyvning (per time)</td>
+                <td>Droneflyvning og fotografering/videofilming på stedet</td>
+                <td>1.000,-</td>
+            </tr>
+            <tr>
+                <td>Bilderedigering</td>
+                <td>Etterarbeid, inkludert redigering av bilder</td>
+                <td>600,-</td>
+            </tr>
+            <tr>
+                <td>Videoredigering (per minutt)</td>
+                <td>Redigering av videoopptak</td>
+                <td>800,-</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. Variable Kostnader</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Tjeneste</th>
+                <th>Beskrivelse</th>
+                <th>Pris (NOK)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Reise (under 30 km)</td>
+                <td>Reise innen 30 km fra lokasjon (t/r)</td>
+                <td>Inkludert</td>
+            </tr>
+            <tr>
+                <td>Reise (over 30 km)</td>
+                <td>Reise utover 30 km (per km, t/r)</td>
+                <td>8,- per km</td>
+            </tr>
+            <tr>
+                <td>Tillegg for vanskelig terreng</td>
+                <td>Ekstra kostnad for flyvning i krevende forhold (fjell, kyst, etc.)</td>
+                <td>500,-</td>
+            </tr>
+            <tr>
+                <td>Ekstra droneflyvning</td>
+                <td>Tillegg for ekstra tid utover avtalt flytid (per time)</td>
+                <td>1.000,-</td>
+            </tr>
+            <tr>
+                <td>Ekstra bilder (per bilde)</td>
+                <td>Hvis kunden ønsker flere redigerte bilder utover inkluderte bilder</td>
+                <td>150,- per bilde</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. Pakkepriser (Rabatterte priser for større oppdrag)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Pakke</th>
+                <th>Beskrivelse</th>
+                <th>Pris (NOK)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Boligpakke</td>
+                <td>10 redigerte bilder + droneflyvning (1 time) + enkel bilderedigering</td>
+                <td>3.500,-</td>
+            </tr>
+            <tr>
+                <td>Næringseiendom Basic</td>
+                <td>10 redigerte bilder + 1 min video + 2 timer droneflyvning og enkel redigering</td>
+                <td>5.500,-</td>
+            </tr>
+            <tr>
+                <td>Næringseiendom Premium</td>
+                <td>20 redigerte bilder + 3 min profesjonell redigert video + 3 timer droneflyvning</td>
+                <td>9.000,-</td>
+            </tr>
+            <tr>
+                <td>Naturlandskap/Fritidsbolig</td>
+                <td>Droneflyvning (2 timer) + 10 redigerte bilder av naturskjønn eiendom eller fritidsbolig</td>
+                <td>4.500,-</td>
+            </tr>
+            <tr>
+                <td>Eventpakke</td>
+                <td>3 timers dekning av arrangement, 15 redigerte bilder + 2 min video</td>
+                <td>7.000,-</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="info">
+        <h3>Ekstra Informasjon</h3>
+        <p><strong>Betalingsbetingelser:</strong> 50% forskuddsbetaling ved bestilling av oppdrag. Resterende beløp faktureres etter oppdraget er fullført og bildene/videoene er levert.</p>
+        <p><strong>Leveringstid:</strong> Standard levering av bilder er innen 5 arbeidsdager. Ønsker du raskere levering, gjelder et tillegg på 1.000,- for ekspresslevering (innen 24 timer).</p>
+    </div>
+
+</div>
+
+</body>
+</html>
